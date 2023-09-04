@@ -1,0 +1,84 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(234, 234, 234);
+}
+
+body {
+  padding: 60px;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 0, 157);
+  color: rgb(155, 3, 97);
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px 15px;
+  width: 50%;
+
+}
+
+h1 {
+  font-size: 2rem; /* Tamaño de letra (ajusta según tu preferencia) */
+  font-weight: bold; /* Grosor de la fuente (negrita) */
+  color: rgb(255, 0, 157);
+  margin-top: 20px; /* Margen superior (ajusta según tu diseño) */
+  margin-bottom: 10px; /* Margen inferior (ajusta según tu diseño) */
+  text-align: left; /* Alineación del texto (centrado) */
+  text-transform: uppercase; /* Convertir el texto a mayúsculas */
+}
+
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+  color: rgb(255, 0, 157);
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(196, 196, 196, 0.5); 
+  padding: 1cm; 
+  border-radius: 10px; 
+  border:  5px solid rgb(255, 0, 157);
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+  display: inline-block; /* Usar display inline-block para que la tarjeta se ajuste al contenido */
+  margin: 10px; /* Agregar margen para separar las tarjetas */
+  padding: 10px; /* Agregar relleno para espacio alrededor del contenido */
+}
+
+.card img {
+  max-width: 100%; /* Asegurar que la imagen no se desborde del ancho de la tarjeta */
+}
+
+.card p {
+  margin: 0; /* Eliminar el margen predeterminado de los párrafos */
+}
+
+/* Barra de desplazamiento en navegadores que admiten propiedades personalizadas */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff00d4; /* Color del botón de desplazamiento */
+  border-radius: 5px; /* Radio de borde del botón de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color de fondo de la barra de desplazamiento */
+}
+
